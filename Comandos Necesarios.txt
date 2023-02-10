@@ -1,0 +1,5 @@
+git pull "Con este comando sabemos los cambios hechos en el branch!
+git push -u origin master "Subimos nuestros proyectos"
+git tag nombre -u "comentario" añadimos un nuevo tag
+git --push tag finalmente añadimos un nuevo tag
+git clone http://..... para clonar los repositorios
