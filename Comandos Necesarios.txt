@@ -3,3 +3,9 @@ git push -u origin master "Subimos nuestros proyectos"
 git tag nombre -u "comentario" añadimos un nuevo tag
 git --push tag finalmente añadimos un nuevo tag
 git clone http://..... para clonar los repositorios
+
+Branch osea las llamadas Ramas...
+git branch nombre  && Este comando nos ayuda a crear un branch
+git branch           && Este comando nos dice en que branch estamos nosotros trabajando
+git checkout nombre   %% Esto es para movernos por los branch que tenemos
+git merge nombre       %% Con esto fusionamos lo que tenemos en le copy branch con el del master
