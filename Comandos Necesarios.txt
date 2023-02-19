@@ -9,3 +9,53 @@ git branch nombre  && Este comando nos ayuda a crear un branch
 git branch           && Este comando nos dice en que branch estamos nosotros trabajando
 git checkout nombre   %% Esto es para movernos por los branch que tenemos
 git merge nombre       %% Con esto fusionamos lo que tenemos en le copy branch con el del master
+
+
+    [Editor Vim]
+printenv   << Nos dice todo lo que tenemos en nuestro variable de Entorno>>
+
+echo $HOME <<Nos dice la ruta del home
+export VARIABLE=$PATH <<Copiamos PATH dentro de nuestra variable
+which ls <<Nos dice la ruta de nuesro binario
+cd /usr/bin/ <<En esta Ruta nos dice todos los binarios que tenemos dentro del systema
+ echo $PATH |tr : \\n  <<Para imprimir en vertical la informacion que se encuentra en la PATH
+ ======================================================================================================================================================================
+  [Lenguaje BASH]
+./PrimerScript.sh << Con esto ejecutamos un script
+chmod x+ nombre.sh  <<Con Esto Otorgamos Permisos
+# !/bin/bash  <<Este es el encabezado
+vim .bashrc << Con esto podemos crear una variable de Entorno Universal y temos que actualizar el Systema con<< source .bashrc
+
+numero1=4343 numero2=343 echo "El Resultado es .." $((numero1 + numero2)) <<Con esto declaramos dos variables a las cuales ejecutamos una operacion matematica 
+variable=$(comando)<<Almacenando los comandos dentro de una variable
+$#<< Nos dice la cantidad de paramtros que tenemos osea parametros dinamicos
+*$<<Nos dice los mismos paramtros 
+read -p "Escribe dato" variable<<Con esto hacemos un input en nuesro programa
+====================================================================================================================================================================
+-cq<< igual que..
+-ne<<Es No es igual a
+-gt<<mayor a
+-ge<<Mayor o igual que
+-it<<menor que
+-le<<menor igual que
+=======================================================================================================================================================================
+        [Condicionales de Bash]
+        
+    numero2=2023
+year=0
+read -p "Escribe el año que naciste" year
+numero1=$(( numero2 - year ))
+
+
+if (( $numero1 > 18 ));then
+        echo "Ested es mayor de edad"
+
+else
+        echo "Pues eres menor de edad"
+
+fi
+
+echo $numero1
+===================================================================================================================================================================
+
+
