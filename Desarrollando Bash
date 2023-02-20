@@ -1,0 +1,28 @@
+  =====================================================================================================================================================================
+  [CREANDO MATRIZ BIDIMENSIONAL EN BASH]
+  ======================================================================================================================================================================
+  
+  # Declarar la matriz bidimensional
+matriz=()
+
+# Agregar filas a la matriz bidimensional
+for ((i=0; i<3; i++))
+do
+  fila=()
+  
+  # Agregar columnas a la fila actual
+  for ((j=0; j<3; j++))
+  do
+    fila+=("$((i+j))")
+  done
+
+  # Agregar la fila actual a la matriz bidimensional
+  matriz+=("${fila[@]}")
+done
+
+# Imprimir la matriz bidimensional
+for fila in "${matriz[@]}"
+do
+  echo "$fila"
+done
+===========================================================================================================================================================================
