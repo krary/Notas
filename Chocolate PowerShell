@@ -2,3 +2,6 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://community.chocolat
 
 
 Tenemos que pegar el codigo de arriba en la consola
+
+
+El link de descarga es ; https://chocolatey.org/install#generic
