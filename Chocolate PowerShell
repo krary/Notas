@@ -1,0 +1,4 @@
+Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
+
+
+Tenemos que pegar el codigo de arriba en la consola
