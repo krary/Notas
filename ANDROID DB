@@ -15,5 +15,6 @@ En Mac, haz doble clic en el archivo descargado para abrirlo en la aplicación A
 Una vez que hayas descomprimido el archivo, podrás acceder a la carpeta Android SDK Platform Tools y ejecutar los comandos de ADB desde la línea de comandos. No es necesario instalar el programa, ya que se trata de una herramienta de línea de comandos que puedes utilizar directamente desde tu terminal.
 
 
-
+NOTA :  PARA EXTRAER EL ARCIVO TENERMOS QEU HACERLO EN LA CARPETA C:\platform-tools
+        LUEGO DENTRO DE LA CARPETA DONDE LO EXTRAIMOS TENEMO QUE IR A LA PESTAÑA DEL RIBON EN ARCHIVOS Y EJECUTAR UN POWERSHELL
 
