@@ -29,3 +29,12 @@ done
 PowerShell LAS RUTAS DEBEN DE ESCRIBIRSE EN :
 (-)" ENTRE COMILLAS"
 (-) LAS BARRAS SON \ INVERTIDAS
+============================================================================================================================================================================
+         COMO PODEMOS CREAR UN ARRAY Y GUARDAD TODOS LOS ARCHIVOS EN EL BASH
+         
+         variable=($( ls /esta/es/la/ruta/* ))  El asterico significa que van a ser listados todos los archivos
+         
+         COMO PODEMO CREAR UN ARCHIVO DONE LISTEMOS EL NOMBRE DE TODOS LOS ARCHIVOS EN EL BASH
+         
+         printf '%s\n' "${variable[@]}" > arhcivo_donde_va_ha_ser_copiado.txt     ['%s es donde dice que formato debe de ser imprimido el resultado en esta caso una cadena]
+ =======================================================================================================================================================================
