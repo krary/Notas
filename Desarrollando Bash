@@ -37,4 +37,19 @@ PowerShell LAS RUTAS DEBEN DE ESCRIBIRSE EN :
          COMO PODEMO CREAR UN ARCHIVO DONE LISTEMOS EL NOMBRE DE TODOS LOS ARCHIVOS EN EL BASH
          
          printf '%s\n' "${variable[@]}" > arhcivo_donde_va_ha_ser_copiado.txt     ['%s es donde dice que formato debe de ser imprimido el resultado en esta caso una cadena]
- =======================================================================================================================================================================
+
+SI QUEREMOS IMPRIMIR EL RESULTAOD DE TODOS LOS ARCHIVOS ES  DECIR EL CONTENIDO
+
+   cat /ruta/de/la/carpeta/* > contenido_archivos.txt
+   
+   SI QUEREMOS PODER IMPRIMIR SOLO EL RESULTADO DE LOS ARCHIVOS DE TEXTO
+   
+   grep -r --include='*.txt' '' /ruta/de/la/carpeta | cat > contenido_archivos.txt
+   
+[En este comando, grep se utiliza para buscar todos los archivos de texto (*.txt) 
+en la carpeta /ruta/de/la/carpeta
+y su contenido se concatena con cat y se redirige al archivo "contenido_archivos.txt". 
+La opción -r indica que la búsqueda se realice recursivamente en subdirectorios y --include='*.txt' filtra los archivos que no son de texto.]
+
+
+=======================================================================================================================================================================
