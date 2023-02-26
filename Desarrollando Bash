@@ -53,3 +53,7 @@ La opción -r indica que la búsqueda se realice recursivamente en subdirectorio
 
 
 =======================================================================================================================================================================
+     LEYENDO UN ARCHIVO Y UNIFICANDO TODAS LAS LETRAS
+     cat archivo.txt | sed 's/ //g' > copia.txt
+     Si queremos respetar los saltos de linea : cat texto.txt |sed 's/ /\n/g' > copia.txt
+     
