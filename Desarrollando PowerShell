@@ -1,0 +1,2 @@
+CREANDO ARHVIVO NUEVO:   New-Item nombre.txt -ItemType File
+Para poner contenido:    Add-Content nombre.txt " =================="[Cerramos con comillas ]
