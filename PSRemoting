@@ -1,3 +1,15 @@
 PARA SABER SI TENEMOS EL SERVICIO DE WinRM CORRIENDO EN LA PC : Get-Service -Name WinRM
 PARA INICIAR EL SERVICIO DE WINRM : Enable-PSRemoting
 PARA PARAR EL SERVICIO DE WINRM: Stop-Service WinRM
+====================================================================================================================================================================
+
+PARA CONFIGURAR EL SERVICIO ESCRIBIMOS:  winrm set winrm/config/client '@{TrustedHosts="nombre-del-equipo-remoto"}'
+======================================================================================================================================================================
+PARA OTORGARLE PERMISOS A LA PC A ES DECIR EN LA QUE ESTAMO EJECUTANDO CODIGOS PARA CONECTARNOS A OTRA: Enter-PSSession -ComputerName "nombre-del-equipo-remoto" -Credential (Get-Credential)
+LUEGO EN LA PC B : # Agregar su cuenta de usuario al grupo de administradores local
+Add-LocalGroupMember -Group "Administradores" -Member "nombre-de-su-cuenta-de-usuario"
+
+# Deshabilitar el firewall de Windows
+Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
+
+
