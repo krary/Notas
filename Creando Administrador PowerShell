@@ -1,0 +1,3 @@
+Add-LocalGroupMember -Group "Administrador" -Member "Nombre de el administrador"
+CON EL COMANDO ANTERIOR CREAMOS UN USUARIO NUEVO
+Remove-LocalGroupMember -Group "Administrador" -Member "Nombre de el administrador"
