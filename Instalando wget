@@ -1,0 +1,23 @@
+Descarga el archivo de instalación de wget utilizando el comando "curl". Por ejemplo, escribe el siguiente comando:
+ruby
+Copy code:
+curl -O http://ftp.gnu.org/gnu/wget/wget-1.21.2.tar.gz
+Este comando descargará el archivo tar.gz de wget desde el servidor FTP de GNU.
+
+Descomprime el archivo tar.gz utilizando el comando "tar". Por ejemplo, escribe el siguiente comando:
+Copy code:
+tar -zxvf wget-1.21.2.tar.gz
+Este comando creará una carpeta llamada "wget-1.21.2" y descomprimirá todos los archivos de wget dentro de ella.
+
+Navega hasta la carpeta "wget-1.21.2" utilizando el comando "cd". Por ejemplo, escribe "cd wget-1.21.2" para navegar hasta la carpeta de wget.
+
+Ejecuta el script de configuración utilizando los siguientes comandos:
+
+go
+Copy code:
+./configure
+make
+make install
+Estos comandos compilarán e instalarán wget en tu sistema.
+
+Una vez instalado, podrás utilizar el comando "wget" desde Git Bash sin problemas.
