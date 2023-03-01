@@ -1,3 +1,7 @@
 Add-LocalGroupMember -Group "Administrador" -Member "Nombre de el administrador"
 CON EL COMANDO ANTERIOR CREAMOS UN USUARIO NUEVO
 Remove-LocalGroupMember -Group "Administrador" -Member "Nombre de el administrador"
+
+==========================================================================================================================================================================
+Get-LocalGroupMember -Group "Administradores"
+ESTE COMANDO ME PERMITE SABER CUALES SON EL GRUPO DE ADMINISTRADORES DE LA PC LOCAL
