@@ -50,10 +50,17 @@ SI QUEREMOS IMPRIMIR EL RESULTAOD DE TODOS LOS ARCHIVOS ES  DECIR EL CONTENIDO
 en la carpeta /ruta/de/la/carpeta
 y su contenido se concatena con cat y se redirige al archivo "contenido_archivos.txt". 
 La opción -r indica que la búsqueda se realice recursivamente en subdirectorios y --include='*.txt' filtra los archivos que no son de texto.]
+=============================================================================================================================================================================
 
 
 =======================================================================================================================================================================
      LEYENDO UN ARCHIVO Y UNIFICANDO TODAS LAS LETRAS
      cat archivo.txt | sed 's/ //g' > copia.txt
      Si queremos respetar los saltos de linea : cat texto.txt |sed 's/ /\n/g' > copia.txt
+     
+     ===================================================================================================================================================================
+                             SI QUEREMOS ALMACENAR LA RUTA DONDE ESTAMOS EN UNA VARIABLE LO HACEMO CON
+                             VARIABLE=$(pwd)
+                             
+                             numero=($(ls "$VARUABKE"))
      
