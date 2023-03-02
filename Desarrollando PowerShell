@@ -1,2 +1,3 @@
 CREANDO ARHVIVO NUEVO:   New-Item nombre.txt -ItemType File
 Para poner contenido:    Add-Content nombre.txt " =================="[Cerramos con comillas ]
+PARA RENOMBRAR UN ARCHIVO : ren archivo.txt archivo.csv
