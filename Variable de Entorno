@@ -1,0 +1,5 @@
+PARA CREAR UNA VARIABLE DEL ENTORNO ESCRIBIMOS :
+New-Item Path Env:\ -Name "El nombre" -Value "C:\la ruta\del programa\Mi programa"
+PARA EJECUTARLO ESCRIBIMOS:    cmd /c "%MiVariable%\programa.exe" 
+PARA REMOBEVER LO HACEMOS CON Remove-Item -Path Env:/aqui viene el nombre/de la ruta
+PARA VER LA RUTA DE UNA BARIABLE DE ENTORNO Get-Item Env:/la /ruta
